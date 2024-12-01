@@ -1,9 +1,9 @@
-import { type PlatformProxy } from "wrangler";
+import type { PlatformProxy } from "wrangler";
 
 type Cloudflare = Omit<PlatformProxy<Env>, "dispose">;
 
-declare module "@remix-run/cloudflare" {
-  interface AppLoadContext {
-    cloudflare: Cloudflare;
-  }
+declare module "react-router" {
+	interface AppLoadContext {
+		cloudflare: Cloudflare;
+	}
 }
