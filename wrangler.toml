@@ -3,6 +3,9 @@ name = "react-router-cloudflare-pages-template"
 compatibility_date = "2024-11-27"
 pages_build_output_dir = "./build/client"
 
+[placement]
+mode = "smart"
+
 [vars]
 title = "React Router + Cloudflare Pages"
 description = "A template for building a React Router app with Cloudflare Pages"

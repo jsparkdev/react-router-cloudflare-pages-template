@@ -10,6 +10,7 @@
 		"preview": "pnpm run build && wrangler pages dev"
 	},
 	"dependencies": {
+		"@radix-ui/react-slot": "^1.1.0",
 		"@react-router/cloudflare": "^7.0.1",
 		"class-variance-authority": "^0.7.1",
 		"clsx": "^2.1.1",
