@@ -1,30 +1,30 @@
 {
-  "include": ["**/*.ts", "**/*.tsx", ".react-router/types/**/*"],
-  "compilerOptions": {
-    "lib": ["DOM", "DOM.Iterable", "ES2022"],
-    "types": [
-      "vite/client",
-      "@react-router/cloudflare",
-      "@cloudflare/workers-types/2023-07-01"
-    ],
-    "rootDirs": [".", "./.react-router/types"],
-    "isolatedModules": true,
-    "esModuleInterop": true,
-    "jsx": "react-jsx",
-    "module": "ESNext",
-    "moduleResolution": "Bundler",
-    "resolveJsonModule": true,
-    "target": "ES2022",
-    "strict": true,
-    "allowJs": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "baseUrl": ".",
-    "paths": {
-      "~/*": ["./app/*"]
-    },
+	"include": ["**/*.ts", "**/*.tsx", ".react-router/types/**/*"],
+	"compilerOptions": {
+		"lib": ["DOM", "DOM.Iterable", "ES2022"],
+		"types": [
+			"vite/client",
+			"@react-router/cloudflare",
+			"@cloudflare/workers-types/2023-07-01"
+		],
+		"rootDirs": [".", "./.react-router/types"],
+		"isolatedModules": true,
+		"esModuleInterop": true,
+		"jsx": "react-jsx",
+		"module": "ESNext",
+		"moduleResolution": "Bundler",
+		"resolveJsonModule": true,
+		"target": "ES2022",
+		"strict": true,
+		"allowJs": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"baseUrl": ".",
+		"paths": {
+			"~/*": ["./app/*"]
+		},
 
-    // Vite takes care of building everything, not tsc.
-    "noEmit": true
-  }
+		// Vite takes care of building everything, not tsc.
+		"noEmit": true
+	}
 }
