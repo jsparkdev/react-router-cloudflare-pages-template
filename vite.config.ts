@@ -4,18 +4,18 @@ import { defineConfig } from "vite";
 import tsconfigPaths from "vite-tsconfig-paths";
 
 export default defineConfig(({ mode }) => {
-  return {
-    build: {
-      target: "esnext",
-      sourcemap: mode === "development",
-    },
-    ssr: {
-      target: "webworker",
-      noExternal: ["isbot"],
-    },
-    optimizeDeps: {
-      include: ["react", "react-dom", "react-router"],
-    },
-    plugins: [cloudflareDevProxy(), reactRouter(), tsconfigPaths()],
-  };
+	return {
+		build: {
+			target: "esnext",
+			sourcemap: mode === "development",
+		},
+		ssr: {
+			target: "webworker",
+			noExternal: ["isbot"],
+		},
+		optimizeDeps: {
+			include: ["react", "react-dom", "react-router"],
+		},
+		plugins: [cloudflareDevProxy(), reactRouter(), tsconfigPaths()],
+	};
 });

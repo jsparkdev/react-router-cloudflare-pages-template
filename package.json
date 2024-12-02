@@ -6,8 +6,10 @@
 	"scripts": {
 		"build": "react-router build",
 		"dev": "react-router dev",
-		"check": "biome check . --write",
-		"preview": "pnpm run build && wrangler pages dev"
+		"preview": "pnpm run build && wrangler pages dev",
+		"format": "biome format . --write",
+		"lint": "biome lint . --write",
+		"check": "biome check . --write"
 	},
 	"dependencies": {
 		"@radix-ui/react-slot": "^1.1.0",
