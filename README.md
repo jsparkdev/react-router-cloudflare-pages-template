@@ -4,9 +4,8 @@ A minimal template for building a React Router App with Cloudflare Pages.
 
 ## Features
 
-- [Vite](https://vite.dev/) + [React Router v7](https://reactrouter.com/)
+- [Vite](https://vite.dev/) + [React Router v7](https://reactrouter.com/) + [React v19](https://react.dev)
 - [shadcn/ui](https://ui.shadcn.com/) - Beautiful and accessible components
-- [React](https://react.dev) 19 RC - Release Candidate version with new features
 - [Biome](https://biomejs.dev/) - Fast and modern linter and formatter
 - Deploy to [Cloudflare Pages](https://pages.cloudflare.com/) with zero configuration
 
