@@ -1,50 +1,48 @@
 {
-  "name": "react-router-cloudflare-pages-template",
-  "private": true,
-  "sideEffects": false,
-  "type": "module",
-  "scripts": {
-    "build": "react-router build",
-    "dev": "react-router dev",
-    "preview": "pnpm run build && wrangler pages dev",
-    "format": "biome format . --write",
-    "lint": "biome lint . --write",
-    "check": "biome check . --write",
-    "prepare": "husky install"
-  },
-  "dependencies": {
-    "@radix-ui/react-slot": "^1.1.0",
-    "@react-router/cloudflare": "^7.0.2",
-    "class-variance-authority": "^0.7.1",
-    "clsx": "^2.1.1",
-    "isbot": "^5.1.17",
-    "lucide-react": "^0.468.0",
-    "react": "19.0.0",
-    "react-dom": "19.0.0",
-    "react-router": "^7.0.2",
-    "tailwind-merge": "^2.5.5",
-    "tailwindcss-animate": "^1.0.7"
-  },
-  "devDependencies": {
-    "@biomejs/biome": "1.9.4",
-    "@cloudflare/workers-types": "^4.20241205.0",
-    "@react-router/dev": "^7.0.2",
-    "@react-router/fs-routes": "^7.0.2",
-    "@types/react": "^19.0.1",
-    "@types/react-dom": "^19.0.2",
-    "autoprefixer": "^10.4.20",
-    "husky": "^9.1.7",
-    "lint-staged": "^15.2.10",
-    "postcss": "^8.4.49",
-    "tailwindcss": "^3.4.16",
-    "typescript": "^5.7.2",
-    "vite": "^6.0.3",
-    "vite-tsconfig-paths": "^5.1.4",
-    "wrangler": "3.94.0"
-  },
-  "lint-staged": {
-    "*.{js,ts,tsx,json,css}": [
-      "biome check --write --no-errors-on-unmatched"
-    ]
-  }
+	"name": "react-router-cloudflare-pages-template",
+	"private": true,
+	"sideEffects": false,
+	"type": "module",
+	"scripts": {
+		"build": "react-router build",
+		"dev": "react-router dev",
+		"preview": "pnpm run build && wrangler pages dev",
+		"format": "biome format . --write",
+		"lint": "biome lint . --write",
+		"check": "biome check . --write",
+		"prepare": "husky install"
+	},
+	"dependencies": {
+		"@radix-ui/react-slot": "^1.1.0",
+		"@react-router/cloudflare": "^7.0.2",
+		"class-variance-authority": "^0.7.1",
+		"clsx": "^2.1.1",
+		"isbot": "^5.1.17",
+		"lucide-react": "^0.468.0",
+		"react": "19.0.0",
+		"react-dom": "19.0.0",
+		"react-router": "^7.0.2",
+		"tailwind-merge": "^2.5.5",
+		"tailwindcss-animate": "^1.0.7"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"@cloudflare/workers-types": "^4.20241205.0",
+		"@react-router/dev": "^7.0.2",
+		"@react-router/fs-routes": "^7.0.2",
+		"@types/react": "^19.0.1",
+		"@types/react-dom": "^19.0.2",
+		"autoprefixer": "^10.4.20",
+		"husky": "^9.1.7",
+		"lint-staged": "^15.2.11",
+		"postcss": "^8.4.49",
+		"tailwindcss": "^3.4.16",
+		"typescript": "^5.7.2",
+		"vite": "^6.0.3",
+		"vite-tsconfig-paths": "^5.1.4",
+		"wrangler": "3.95.0"
+	},
+	"lint-staged": {
+		"*.{js,ts,tsx,json,css}": ["biome check --write --no-errors-on-unmatched"]
+	}
 }
